@@ -2,6 +2,12 @@ Tyrone Marhguy
 Computer Engineering - University of Pennsylvania
 Originally from Ghana, first-generation, and triplet
 
+Course Name: Introduction to Python Programming
+
+Instructor: Prof. Brandon Krakowsky
+
+Offered by: Coursera, University of Pennsylvania
+
 Banking App
 
 Skills Learned in this Course - Introduction to Python Programming
