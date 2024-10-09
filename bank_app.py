@@ -1,13 +1,15 @@
 # Function to import user data from a file and create a user accounts dictionary
 def import_and_create_users(filename):
+    #create a blank dictiionary
     users = {}
+    #try - catch block
     try:
         with open(filename, 'r') as f:
             lines = f.readlines()
 
         for line in lines:
             line = line.strip()
-            if line:  # Only process non-empty lines
+            if line:
                 parts = line.split(' - ')
                 if len(parts) == 2:  # Ensure the line has a name and password
                     name, password = parts
